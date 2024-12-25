@@ -1,0 +1,95 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+  width: 400px;
+  height: 60px; 
+  padding: 0 15px; 
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 10px 0 grey;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.644);
+
+}
+
+.add-button {
+    width: 80px;
+    border-radius: 15px;
+    color: white;
+    background-color: #4A90E2 ;
+    border: none;
+    margin-left: 5px;
+    box-shadow: 0 10px 10px 0 grey;
+    transition: 0.3s ease;
+}
+
+body {
+background-color: #FFFAE5;}
+
+.add-button:hover {
+    background-color: rgb(10, 10, 141);
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 380px;
+    gap: 30px;
+}
+
+.box {
+    width: 380px;
+    height: 65px;
+    background-color: #F0F4C3  ;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.411);
+
+}
+
+.box button {
+    height: 45px;
+    padding: 0 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    border: none;
+    color: white;
+}
+
+.done-button {
+    background-color: #2ECC71 ;
+}
+
+.remove-button {
+    background-color: #E74C3C ;
+}
+
+.button-box {
+    display: flex;
+    justify-content: end;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.error-input {
+    border: 2px solid red;
+}
+
+.span {
+    color: #333333;
+}
+
